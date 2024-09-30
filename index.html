@@ -11,11 +11,7 @@
 
 <body>
 
-<<<<<<< HEAD
-    <header class="headen">
-=======
-    <header>
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
+    <header class="header">
         <div class="logo">CHICO<span>Car</span></div>
 
         <nav class="nav-bar">
@@ -36,11 +32,6 @@
                 <button class="btn buy">Buy</button>
             </div>
 
-<<<<<<< HEAD
-=======
-            </div>
-
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
             <div class="menu-click-close">
                 <img src="./icons/delete.png">
             </div>
@@ -67,13 +58,12 @@
                     </g>
                 </svg>
             </div>
-<<<<<<< HEAD
 
 
             <div class="blue-mode">
                 <svg fill="#0FFCBE" width="10%" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2"
                     xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15px" cy="20px" r="25" fill="#fff" />
+                    <circle cx="15px" cy="20px" r="25" fill="teal" />
                     <path
                         d="M18.44,34.68a18.22,18.22,0,0,1-2.94-.24,18.18,18.18,0,0,1-15-20.86A18.06,18.06,0,0,1,9.59.63,2.42,2.42,0,0,1,12.2.79a2.39,2.39,0,0,1,1,2.41L11.9,3.1l1.23.22A15.66,15.66,0,0,0,23.34,21h0a15.82,15.82,0,0,0,8.47.53A2.44,2.44,0,0,1,34.47,25,18.18,18.18,0,0,1,18.44,34.68ZM10.67,2.89a15.67,15.67,0,0,0-5,22.77A15.66,15.66,0,0,0,32.18,24a18.49,18.49,0,0,1-9.65-.64A18.18,18.18,0,0,1,10.67,2.89Z" />
                 </svg>
@@ -82,22 +72,12 @@
             <div class="light-mode">
                 <svg fill="#0FFCBE" width="10%" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2"
                     xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15px" cy="20px" r="25" fill="#106EBE" />
-=======
-            <div class="light-mode">
-                <svg fill="#008080" width="10%" viewBox="0 0 35 35" data-name="Layer 2" id="Layer_2"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="15px" cy="20px" r="25" fill="white" />
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
-                    <path
+                    <circle cx="15px" cy="20px" r="25" fill="#fff" />
+                <path
                         d="M18.44,34.68a18.22,18.22,0,0,1-2.94-.24,18.18,18.18,0,0,1-15-20.86A18.06,18.06,0,0,1,9.59.63,2.42,2.42,0,0,1,12.2.79a2.39,2.39,0,0,1,1,2.41L11.9,3.1l1.23.22A15.66,15.66,0,0,0,23.34,21h0a15.82,15.82,0,0,0,8.47.53A2.44,2.44,0,0,1,34.47,25,18.18,18.18,0,0,1,18.44,34.68ZM10.67,2.89a15.67,15.67,0,0,0-5,22.77A15.66,15.66,0,0,0,32.18,24a18.49,18.49,0,0,1-9.65-.64A18.18,18.18,0,0,1,10.67,2.89Z" />
                 </svg>
             </div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
             <div class="menu-click-open">
                 <svg fill="#FFF" font-weight="bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                     preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
@@ -109,7 +89,7 @@
                 </svg>
 
             </div>
-<<<<<<< HEAD
+
         </div>
 
     </header>
@@ -278,20 +258,11 @@
         <div class="Avis-voiture">
             <img src="./images/pic-bot.jpg" class="pic-bot">
             <img src="./images/pic-top.jpg" class="pic-top">
-=======
 
-    </header>
-
-    <section>
-
-        <div class="present">
-            <div class="btn-present"></div>
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
         </div>
 
     </section>
 
-<<<<<<< HEAD
     <form>
         <!--la classe de connexion au sites ou par google-->
         <section class="Connexion">
@@ -522,7 +493,7 @@
     const toogleBlue = document.querySelector(".blue-mode");
     const toogleLight = document.querySelector(".light-mode");
     const body = document.body;
-    const enTete = document.querySelector(".headen");
+    const enTete = document.querySelector(".header");
     const openMenu = document.querySelector(".menu-click-open");
     const closeMenu = document.querySelector(".menu-click-close");
     const nav = document.querySelector(".nav-bar");
@@ -532,17 +503,17 @@
     toogleBlue.addEventListener("click", function () {
         toogleBlue.style.display = "none";
         toogleLight.style.display = "block";
-        body.style.backgroundColor = "#fff";
-        body.style.color = "#000";
+        body.style.backgroundColor = "teal";
+        body.style.color = "#fff";
         enTete.style.backgroundColor = "teal";
     });
 
     toogleLight.addEventListener("click", function () {
         toogleLight.style.display = "none";
         toogleBlue.style.display = "block";
-        body.style.backgroundColor = "#106EBE";
-        body.style.color = "#fff";
-        enTete.style.backgroundColor = "#106EBE";
+        body.style.backgroundColor = "#fff";
+        body.style.color = "#000";
+        enTete.style.backgroundColor = "gray";
         enTete.style.color = "#fff";
 
     });
@@ -564,32 +535,7 @@
         /*mode.style.display = "block";*/
     });
 </script>
-=======
-    <!-- JS code  -->
-    <script>
-        const openMenu = document.querySelector(".menu-click-open");
-        const closeMenu = document.querySelector(".menu-click-close");
-        const nav = document.querySelector(".nav-bar");
-        const whatsappIcon = document.querySelector(".icon-whatsApp");
-        const mode = document.querySelector(".light-mode")
 
-        openMenu.addEventListener("click", function () {
-            nav.style.display = "flex";
-            openMenu.style.display = "none";
-            closeMenu.style.display = "block";
-            whatsappIcon.style.display = "none";
-            mode.style.display = "none";
-        });
-
-        closeMenu.addEventListener("click", function () {
-            nav.style.display = "none";
-            openMenu.style.display = "block";
-            closeMenu.style.display = "none";
-            whatsappIcon.style.display = "block";
-            mode.style.display = "block";
-        });
-    </script>
->>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 </body>
 
 </html>
