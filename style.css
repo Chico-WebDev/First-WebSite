@@ -8,6 +8,7 @@
     overflow: visible;
 }
 
+<<<<<<< HEAD
 body {
     /*    background-color: #031e36;*/
     background-color: #106EBE;
@@ -16,16 +17,27 @@ body {
 
 
 .headen {
+=======
+header {
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
     display: flex;
     justify-content: space-between;
     padding: 2rem 4%;
     align-items: center;
+<<<<<<< HEAD
     top: 0;
     right: 0;
     left: 0;
     /*    background-color: #031e36;*/
     background-color: #106EBE;
     color: #fff;
+=======
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #031e36;
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 
 
 }
@@ -73,7 +85,11 @@ body {
 }
 
 .buy-btn .btn {
+<<<<<<< HEAD
     padding: 6px 20px;
+=======
+    padding: 5px 20px;
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
     font-size: 1.1rem;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
@@ -83,6 +99,16 @@ body {
     color: #106EBE;
 }
 
+<<<<<<< HEAD
+=======
+.nav-side {
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu-click-open,
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 .menu-click-close {
     display: none;
     position: absolute;
@@ -90,6 +116,10 @@ body {
     top: 29px;
     z-index: 10;
     width: 25px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 }
 
 .menu-click-close img {
@@ -98,6 +128,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 .nav-side {
     display: flex;
     gap: 30px;
@@ -753,6 +784,18 @@ img {
 
 
 
+=======
+
+.icon-whatsApp svg,
+.light-mode svg {
+    width: 25px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 
 
 @media (max-width: 1205px) {
@@ -834,7 +877,11 @@ img {
         width: auto;
         height: auto;
         justify-content: space-between;
+<<<<<<< HEAD
         gap: 20px;
+=======
+        gap: 30px;
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
         align-items: center;
         padding: 5px 20px;
         border-radius: 30px;
@@ -842,6 +889,7 @@ img {
     }
 
     .icon-whatsApp svg,
+<<<<<<< HEAD
     .light-mode svg,
     .blue-mode svg {
         width: 20px;
@@ -852,6 +900,14 @@ img {
         display: flex;
         justify-content: space-between;
         gap: 60px;
+=======
+    .light-mode svg {
+        width: 20px;
+    }
+
+    header {
+        gap: 20px;
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
     }
 
     .logo {
@@ -885,7 +941,11 @@ img {
         width: 75%;
         top: 0;
         right: 0;
+<<<<<<< HEAD
         height: 20%;
+=======
+        height: 100%;
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
 
     }
 
@@ -896,9 +956,12 @@ img {
 }
 
 @media (max-width: 590px) {
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 95f06c4f026a4b1c226d9ff1b84f1f12b5853980
     .nav-bar {
         width: 100%;
         justify-content: left;
