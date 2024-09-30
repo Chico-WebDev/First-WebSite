@@ -8,16 +8,24 @@
     overflow: visible;
 }
 
-header {
+body {
+    /*    background-color: #031e36;*/
+    background-color: #106EBE;
+    color: #fff;
+}
+
+
+.headen {
     display: flex;
     justify-content: space-between;
     padding: 2rem 4%;
     align-items: center;
-    position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    background-color: #031e36;
+    /*    background-color: #031e36;*/
+    background-color: #106EBE;
+    color: #fff;
 
 
 }
@@ -65,7 +73,7 @@ header {
 }
 
 .buy-btn .btn {
-    padding: 5px 20px;
+    padding: 6px 20px;
     font-size: 1.1rem;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
@@ -75,13 +83,6 @@ header {
     color: #106EBE;
 }
 
-.nav-side {
-    display: flex;
-    gap: 30px;
-
-}
-
-.menu-click-open,
 .menu-click-close {
     display: none;
     position: absolute;
@@ -89,7 +90,6 @@ header {
     top: 29px;
     z-index: 10;
     width: 25px;
-
 }
 
 .menu-click-close img {
@@ -98,15 +98,660 @@ header {
 }
 
 
+.nav-side {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+.icon-whatsApp {
+    width: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.blue-mode {
+    width: 25px;
+}
+
+.light-mode {
+    display: none;
+    width: 25px;
+}
 
 .icon-whatsApp svg,
+.blue-mode svg,
 .light-mode svg {
     width: 25px;
-    margin: 0;
-    padding: 0;
+}
+
+.menu-click-open {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 29px;
+    z-index: 10;
+    width: 25px;
+}
+
+
+
+
+
+.presents {
+    display: flex;
+    margin-top: 70px;
+    padding: 1rem 4%;
+    /*background-color: cyan;
+    */
+}
+
+.btn-presents {
+    padding-top: 10px;
+    /*background-color: red;*/
+    padding: 10px 0;
+
+}
+
+.presents .Title {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+    background-color: red;
+}
+
+.presents .btn-presents p {
+    padding-bottom: 30px;
+    max-width: 700px;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+
+
+.btn-card {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    justify-content: center;
+    /*background-color: #106EBE;
+    */
+}
+
+.btn-card img {
+    width: 100%;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font: bold;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.presents .btn-presents .buy-btn .btn {
+    padding: 10px 20px;
+}
+
+.container-first {
+    /* background: teal;*/
+
+    padding: 2rem 5%;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(2, 450px);
+
+}
+
+.card-car {
+    height: auto;
+    padding: 20px;
+    /*   background: #106EBE;*/
+    text-align: center;
+
+}
+
+.car-first {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-second {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-third {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-for {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-five {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-six {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.car-first,
+.car-second,
+.car-third,
+.car-for,
+.car-five,
+.car-six,
+img {
+    width: 300px;
+}
+
+.description {
+    margin: 20px 0;
+    color: #000;
+}
+
+.card-buy {
+    margin: 10px 0;
+    width: 90px;
+    height: 40px;
+    background-color: #0FFCBE;
+    color: #106EBE;
+    border: 1px solid #fff;
+    transition: 1s;
+    font-size: 1rem;
+}
+
+.card-buy:hover {
+    background-color: #271b1bcd;
+    color: #0FFCBE;
+
+}
+
+.Avis-container {
+    margin-bottom: 60px;
+    display: flex;
+    padding: 2rem 1%;
+    gap: 80px;
+    background-color: none;
+}
+
+.Avis-client {
+    display: block;
+    padding: 10px;
+    background-color: none;
+}
+
+.title-Avis {
+    text-align: center;
+    margin: auto;
+
+}
+
+.title-Avis h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.title-Avis p {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Avis-box {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-gap: 5px;
+    background-color: none;
+}
+
+.avis {
+    width: 250px;
+    height: 250px;
+    background-color: none;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 40px;
+}
+
+.avis img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.Avis-voiture {
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    background-color: none;
+    width: 700px;
+    height: auto;
+}
+
+.pic-top {
+
+    width: 300px;
+    height: 450px;
+
+}
+
+.pic-bot {
+    padding-top: 50px;
+    width: 300px;
+    height: 550px;
+}
+
+.pic-top,
+.pic-bot,
+.img {
+    width: 300px;
+}
+
+.Connexion {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: none;
+}
+
+
+.Connexion .Login-btn {
+    background-color: rgba(255, 248, 248, 0.077);
+    margin: auto;
+    text-align: center;
+
+    width: 400px;
+    height: 500px;
+
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.Connexion .Login-btn .login {
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Connexion .Login-btn .login img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.Connexion .Login-btn .Formulaire {
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Connexion .Login-btn .Formulaire .input-container {
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    background: transparent;
+}
+
+
+.Connexion .Login-btn .Formulaire .input-container img {
+    width: 30px;
+    height: 30px;
+}
+
+.Connexion .Login-btn .Formulaire h3 {
+    padding-top: 15px;
+    padding-right: 190px;
+}
+
+.Connexion .Login-btn .Formulaire .input-container .input-icon {
+    padding-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.Connexion .Login-btn .Formulaire .input-container input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    padding-left: 30px;
+}
+
+
+.Connexion .Login-btn .Formulaire .input-container input[name="Username"]::-webkit-input-placeholder {
+    color: #343434;
+}
+
+
+.Connexion .Login-btn .Formulaire .input-container input[name="Email"]::-webkit-input-placeholder {
+    color: #343434;
+}
+
+.Connexion .Login-btn .Formulaire .input-container input[name="Password"]::-webkit-input-placeholder {
+    color: #343434;
+}
+
+.Connexion .Login-btn .Formulaire input[type="submit"] {
+    background: #0FFCBE;
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.Connexion .Login-btn .Formulaire input[type="submit"]:hover {
+    background: #031e36;
+    opacity: 1;
+    color: #0FFCBE;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+
+.Connexion .Login-btn span {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    color: #343434;
+}
+
+.Connexion .Login-btn span a {
+    color: darkblue;
+
+}
+
+.Connexion .Login-btn span a:hover {
+    color: #0FFCBE;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Connexion .Login-with-Google {
+    background-color: rgba(255, 248, 248, 0.077);
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+
+.Connexion .Login-with-Google .register {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.Connexion .Login-with-Google .register h1 {
+    padding: 20px 0;
+}
+
+.Connexion .Login-with-Google .register img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.Connexion .Login-with-Google .connected {
+
+    margin-right: auto;
+    margin-top: 20px;
+
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    height: 300px;
+    padding: 20px 10px;
+}
+
+.Connexion .Login-with-Google .connected .connect {
+    margin: auto;
+
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+}
+
+.Connexion .Login-with-Google .connected .connect img {
+    width: 30px;
+    height: 30px;
+}
+
+.Connexion .Login-with-Google .connected .connect p {
+    margin: auto;
+}
+
+
+.footer {
+
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+
+    background-image: url(./images/bg-footer1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.footer .icons {
+
+    padding: 20px;
+
+    border: 1px solid white;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    background-color: rgba(9, 9, 82, 0.589);
+
+    color: #fff;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.footer .icons img {
+    width: 40px;
+    height: 30px;
+    margin: auto;
+
+    padding-right: 10px;
+
+    gap: 5px;
+
+    text-align: right;
+
+}
+
+.footer-content {
+
+    background-color: rgba(9, 9, 82, 0.589);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: auto;
+
+    height: auto;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+.footer .company {
+
+    display: block;
+
+    flex-direction: column;
+
+
+
+    padding: 25px;
+
+    padding-bottom: 0;
+
+}
+
+.footer .company p {
+
+    padding-bottom: 35px;
+
+}
+
+.footer .product {
+
+    display: block;
+
+    flex-direction: column;
+
+
+    padding: 25px;
+
+    padding-bottom: 0;
+
 
 
 }
+
+.footer .product p {
+
+    padding-bottom: 35px;
+
+}
+
+
+.footer .contact {
+
+    display: block;
+
+    flex-direction: column;
+
+
+    padding: 25px;
+
+    padding-bottom: 0;
+
+}
+
+.footer .contact img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .contact p {
+
+    padding-bottom: 35px;
+
+}
+
+.footer-foot {
+
+    display: block;
+
+    background-color: rgba(9, 9, 82, 0.589);
+
+    color: white;
+
+    font-weight: bold;
+
+    padding-top: 57px;
+
+    border: 1px solid white;
+
+}
+
+.footer .copyright {
+
+    border-radius: 10px;
+
+    padding: 20px;
+    padding-top: 10px;
+
+
+
+}
+
+.footer .copyright p {
+
+    text-align: center;
+
+    padding: 10px;
+
+
+}
+
+.footer .copyright p a {
+    color: #0FFCBE;
+}
+
+
+
 
 
 
@@ -189,7 +834,7 @@ header {
         width: auto;
         height: auto;
         justify-content: space-between;
-        gap: 30px;
+        gap: 20px;
         align-items: center;
         padding: 5px 20px;
         border-radius: 30px;
@@ -197,12 +842,16 @@ header {
     }
 
     .icon-whatsApp svg,
-    .light-mode svg {
+    .light-mode svg,
+    .blue-mode svg {
         width: 20px;
     }
 
-    header {
-        gap: 20px;
+
+    .headen {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
     }
 
     .logo {
@@ -236,7 +885,7 @@ header {
         width: 75%;
         top: 0;
         right: 0;
-        height: 100%;
+        height: 20%;
 
     }
 
@@ -247,6 +896,9 @@ header {
 }
 
 @media (max-width: 590px) {
+
+
+
     .nav-bar {
         width: 100%;
         justify-content: left;
